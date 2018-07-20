@@ -1,0 +1,39 @@
+body{
+	background: #f0eff2;
+	font-family: 'kavivanar',cursive;
+}
+#content{
+	width: 600px;
+	margin: 5em auto;
+	padding: 50px;
+	background: #fff;
+	border-radius: 1em;
+}
+h3{
+	color: #bada55;
+	text-transform: uppercase;
+}
+img{
+	max-width: 100%;
+	border-radius: 1em 1em 0 0;
+	box-shadow: 0 0 3px 5px rgba(0, 0, 0, .2)
+}
+p{
+	max-width: 100%;
+	line-height: 1.5em;
+	color: gray;
+}
+.highlighted{
+	color: #de2277;
+}
+a{
+	color: #0987ad;
+}
+a:visited{
+	opacity: .5;
+}
+@media screen and (max-width: 700px)
+{
+	body {background: white;}
+	#content{margin: 0;}
+}
